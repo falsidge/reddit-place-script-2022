@@ -135,7 +135,7 @@ If any JSON decoders errors are found, the `config.json` needs to be fixed. Make
 - unverified_place_frequency - Sets the pixel place frequency to the unverified account limit.
 - proxies - Sets proxies to use for sending requests to reddit. The proxy used is randomly selected for each request. Can be used to avoid ratelimiting.
 - compact_logging - Disables timer text until next pixel.
-- Transparency can be achieved by using the RGB value (69, 42, 0) in any part of your image.
+- Transparency can be achieved by using 0 alpha
 - If you'd like, you can enable Verbose Mode by adding `--verbose` to "python main.py". This will output a lot more information, and not neccessarily in the right order, but it is useful for development and debugging.
 - You can also setup proxies by creating a "proxies" and have a new line for each proxies.
 
